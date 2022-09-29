@@ -4,7 +4,6 @@ async function getUsers () {
   const response = await fetch(API_URL)
   const data = await response.json()
   
-  
 }
 
 getUsers()
