@@ -1,0 +1,10 @@
+const numero = 73
+
+if (numero % 2 == 0) {
+console.log("é verdadeiro")
+}
+else {
+  console.log("é false")
+}
+
+numero % 2 === 0 ? console.log("é par") : console.log("é impar")
